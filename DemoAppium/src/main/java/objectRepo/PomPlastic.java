@@ -12,14 +12,43 @@ public class PomPlastic {
     	 PageFactory.initElements  (driver, this);
      }
      @FindBy(xpath = "//android.widget.TextView[@content-desc='Predicted app: PlasticBank']")
-     private WebElement plastic;
-	 public WebElement getPlastic() {
-		 return plastic;
-	 }
-	 @FindBy(xpath = "//android.widget.TextView[@text=\"Search\"]")
-     private WebElement search;
-	 public WebElement getSearch() {
-		 return search;
+     private WebElement plasticApp;
+	 public WebElement getPlasticApp() {
+		 return plasticApp;
 	 }
 	 
+		 @FindBy(  xpath="//android.widget.Button[@text='Sign up']")
+	     private WebElement signup;
+		 public WebElement getSignUp() {
+			 return signup;
+	 }
+		 
+		 @FindBy(xpath = "//android.widget.TextView[@text=\'Collector\']")
+	     private WebElement collector;
+		 public WebElement getCollector() {
+			 return collector;
+	 }
+		 @FindBy(  xpath="//android.widget.EditText[@resource-id='ion-input-1']")
+	     private WebElement name;
+		 public WebElement getName() {
+			 return name;
+	 }
+		 
+		 @FindBy(  xpath="//android.widget.EditText[@resource-id='ion-input-3']")
+	     private WebElement phNum;
+		 public WebElement getPhNum() {
+			 return phNum;
+	 }
+		 @FindBy(  xpath="//android.widget.TextView[@text='English']")
+	     private WebElement english;
+		 public WebElement getEnglish() {
+			 return english;
+	 } 
+		 @FindBy(  xpath="//android.widget.Button[@text='Continue']")
+	     private WebElement continueBtn;
+		 public WebElement getContinueBtn() {
+			 return continueBtn;
+	 } 
+		 
+		 
 }

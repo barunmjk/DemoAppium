@@ -5,7 +5,7 @@
     <classes>
       <class name="pixel9a.Pixel_test">
         <methods>
-          <include name="pixel"/>
+          <include name="signup"/>
         </methods>
       </class> <!-- pixel9a.Pixel_test -->
     </classes>
