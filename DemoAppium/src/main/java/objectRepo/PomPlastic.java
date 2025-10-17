@@ -71,7 +71,7 @@ public class PomPlastic {
 		  public WebElement getDone() {
 			  return done;
 		  }
-		  @FindBy(xpath ="//android.widget.Button[@resource-id='ion-sel-0']")
+		  @FindBy(xpath ="//android.widget.Button[@resource-id='ion-sel-0']") 
 		  private WebElement gender;
 		  public WebElement getGender() {
 			  return gender;
