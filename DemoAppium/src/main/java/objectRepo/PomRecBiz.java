@@ -26,15 +26,43 @@ public class PomRecBiz {
     	return collectionPoint;
     }
     
-    @FindBy(xpath ="//android.widget.EditText[@resource-id='ion-input-0']")
+    @FindBy(xpath ="//android.widget.EditText[@resource-id='ion-input-0']")   
     private WebElement name;
     public WebElement getName() {
     	return name;
     }
     
-    @FindBy(xpath ="//android.widget.Button[@resource-id='ion-sel-1']")
+    @FindBy(xpath ="//android.widget.Button[@resource-id='ion-sel-0']")
     private WebElement gender;
 	public WebElement getGender() {
 		return gender;
-	} 
+
+	}
+	@FindBy(xpath ="//android.widget.RadioGroup/android.view.View[2]/android.view.View/android.view.View")
+	private WebElement male;;
+	public WebElement getMale() {
+		return  male;
+	}
+	@FindBy(xpath ="//android.widget.Button[@text='DONE']")
+	private WebElement donedob;
+	public WebElement getDonedob() {
+		return donedob;
+	}
+	@FindBy(xpath ="//android.widget.EditText[@resource-id='ion-input-4']")
+	private WebElement pass;
+	public WebElement getPass() {
+		return pass;
+	}
+	@FindBy(xpath="//android.widget.EditText[@resource-id='ion-input-5']")
+	private WebElement cPass;
+	public WebElement getCpass() {
+		return cPass;
+	}
+	@FindBy(xpath ="//android.widget.EditText[@resource-id='ion-input-7']")
+	private WebElement bizname;
+	public WebElement getBizName() {
+		return bizname;
+	}
+ 
+	
 }

@@ -76,12 +76,12 @@ public class PomPlastic {
 		  public WebElement getGender() {
 			  return gender;
 		  }
-		  @FindBy(xpath ="//android.widget.RadioGroup/android.view.View[2]/android.view.View/android.view.View")
+		  @FindBy(xpath ="//android.widget.RadioGroup/android.view.View[2]/android.view.View/android.view.View")  
 		  private WebElement male;
 		  public WebElement getMale() {
 			  return male;
 		  }
-		  @FindBy(xpath="//android.widget.EditText[@resource-id='ion-input-5']")
+		  @FindBy(xpath="//android.widget.EditText[@resource-id='ion-input-5']")  
 		  private WebElement pass;
 		  public WebElement getPass() {
 			  return pass;
@@ -91,18 +91,19 @@ public class PomPlastic {
 		  public WebElement getCPass() {
 			  return cpass;
 		  }
-		  @FindBy(xpath="//android.widget.CheckBox/android.view.View/android.widget.Image")
+		  @FindBy(xpath="//android.widget.CheckBox/android.view.View/android.widget.Image")  
 		  private WebElement checkBox;
 		  
 		  public WebElement getCheckBox() {
 			  return checkBox;
 		  }
 		  @FindBy(xpath = "//android.view.View[@resource-id='root']/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View/android.view.View[1]/android.view.View/android.view.View/android.widget.Image")
+	
 		  private WebElement camlogo;
 		  public WebElement getcamlogo() {
 			  return camlogo;
 		  }
-		  @FindBy(xpath ="//android.widget.Button[@text='Take photo']")
+		  @FindBy(xpath ="//android.widget.Button[@text='Take photo']")  
 		  private WebElement takephoto;
 		  public WebElement getTakePhoto() {
 			  return takephoto;
@@ -122,7 +123,7 @@ public class PomPlastic {
 		  public WebElement getSavePic() {
 			  return savepic;
 		  }
-		  @FindBy(xpath="//android.widget.Button[@text='Register']")
+		  @FindBy(xpath="//android.widget.Button[@text='Register']") 
 		  private WebElement register;
 		  public WebElement getRegister() {
 			  return register;
