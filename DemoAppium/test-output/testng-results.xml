@@ -2,48 +2,48 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-22T18:03:34 IST" name="Default suite" finished-at="2025-10-22T18:07:38 IST" duration-ms="243547">
+  <suite started-at="2025-10-24T18:30:36 IST" name="Default suite" finished-at="2025-10-24T18:31:06 IST" duration-ms="29358">
     <groups>
     </groups>
-    <test started-at="2025-10-22T18:03:34 IST" name="Default test" finished-at="2025-10-22T18:07:38 IST" duration-ms="243547">
-      <class name="pixel9a.Pixel9aCommunityProgram_Test">
-        <test-method is-config="true" signature="bsuite()[pri:0, instance:pixel9a.Pixel9aCommunityProgram_Test@198b6731]" started-at="2025-10-22T18:03:34 IST" name="bsuite" finished-at="2025-10-22T18:03:34 IST" duration-ms="19" status="PASS">
+    <test started-at="2025-10-24T18:30:36 IST" name="Default test" finished-at="2025-10-24T18:31:06 IST" duration-ms="29358">
+      <class name="calculator_Test.Calculator_Test">
+        <test-method is-config="true" signature="bSuite()[pri:0, instance:calculator_Test.Calculator_Test@489115ef]" started-at="2025-10-24T18:30:36 IST" name="bSuite" finished-at="2025-10-24T18:30:36 IST" duration-ms="278" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bsuite -->
-        <test-method is-config="true" signature="btest()[pri:0, instance:pixel9a.Pixel9aCommunityProgram_Test@198b6731]" started-at="2025-10-22T18:03:34 IST" name="btest" finished-at="2025-10-22T18:03:34 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- bSuite -->
+        <test-method is-config="true" signature="bTest()[pri:0, instance:calculator_Test.Calculator_Test@489115ef]" started-at="2025-10-24T18:30:36 IST" name="bTest" finished-at="2025-10-24T18:30:36 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- btest -->
-        <test-method is-config="true" signature="bClass()[pri:0, instance:pixel9a.Pixel9aCommunityProgram_Test@198b6731]" started-at="2025-10-22T18:03:34 IST" name="bClass" finished-at="2025-10-22T18:03:51 IST" duration-ms="16271" status="PASS">
+        </test-method> <!-- bTest -->
+        <test-method is-config="true" signature="bClass()[pri:0, instance:calculator_Test.Calculator_Test@489115ef]" started-at="2025-10-24T18:30:36 IST" name="bClass" finished-at="2025-10-24T18:30:43 IST" duration-ms="6283" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bClass -->
-        <test-method is-config="true" signature="bMethod()[pri:0, instance:pixel9a.Pixel9aCommunityProgram_Test@198b6731]" started-at="2025-10-22T18:03:51 IST" name="bMethod" finished-at="2025-10-22T18:04:25 IST" duration-ms="34157" status="PASS">
+        <test-method is-config="true" signature="bMethod()[pri:0, instance:calculator_Test.Calculator_Test@489115ef]" started-at="2025-10-24T18:30:43 IST" name="bMethod" finished-at="2025-10-24T18:30:43 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bMethod -->
-        <test-method signature="CommunityProgram_Test()[pri:0, instance:pixel9a.Pixel9aCommunityProgram_Test@198b6731]" started-at="2025-10-22T18:04:25 IST" name="CommunityProgram_Test" finished-at="2025-10-22T18:07:38 IST" duration-ms="192882" status="PASS">
+        <test-method signature="cal_Test()[pri:0, instance:calculator_Test.Calculator_Test@489115ef]" started-at="2025-10-24T18:30:43 IST" name="cal_Test" finished-at="2025-10-24T18:31:05 IST" duration-ms="22586" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CommunityProgram_Test -->
-        <test-method is-config="true" signature="amethod()[pri:0, instance:pixel9a.Pixel9aCommunityProgram_Test@198b6731]" started-at="2025-10-22T18:07:38 IST" name="amethod" finished-at="2025-10-22T18:07:38 IST" duration-ms="31" status="PASS">
+        </test-method> <!-- cal_Test -->
+        <test-method is-config="true" signature="aAfter()[pri:0, instance:calculator_Test.Calculator_Test@489115ef]" started-at="2025-10-24T18:31:05 IST" name="aAfter" finished-at="2025-10-24T18:31:05 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- amethod -->
-        <test-method is-config="true" signature="aclass()[pri:0, instance:pixel9a.Pixel9aCommunityProgram_Test@198b6731]" started-at="2025-10-22T18:07:38 IST" name="aclass" finished-at="2025-10-22T18:07:38 IST" duration-ms="3" status="PASS">
+        </test-method> <!-- aAfter -->
+        <test-method is-config="true" signature="aClass()[pri:0, instance:calculator_Test.Calculator_Test@489115ef]" started-at="2025-10-24T18:31:05 IST" name="aClass" finished-at="2025-10-24T18:31:06 IST" duration-ms="460" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- aclass -->
-        <test-method is-config="true" signature="atest()[pri:0, instance:pixel9a.Pixel9aCommunityProgram_Test@198b6731]" started-at="2025-10-22T18:07:38 IST" name="atest" finished-at="2025-10-22T18:07:38 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- aClass -->
+        <test-method is-config="true" signature="aTest()[pri:0, instance:calculator_Test.Calculator_Test@489115ef]" started-at="2025-10-24T18:31:06 IST" name="aTest" finished-at="2025-10-24T18:31:06 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- atest -->
-        <test-method is-config="true" signature="asuite()[pri:0, instance:pixel9a.Pixel9aCommunityProgram_Test@198b6731]" started-at="2025-10-22T18:07:38 IST" name="asuite" finished-at="2025-10-22T18:07:38 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- aTest -->
+        <test-method is-config="true" signature="aSuite()[pri:0, instance:calculator_Test.Calculator_Test@489115ef]" started-at="2025-10-24T18:31:06 IST" name="aSuite" finished-at="2025-10-24T18:31:06 IST" duration-ms="245" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- asuite -->
-      </class> <!-- pixel9a.Pixel9aCommunityProgram_Test -->
+        </test-method> <!-- aSuite -->
+      </class> <!-- calculator_Test.Calculator_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

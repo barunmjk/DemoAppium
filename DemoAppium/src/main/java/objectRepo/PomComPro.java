@@ -26,4 +26,15 @@ public class PomComPro {
       public WebElement getName() {
     	  return name;
       }
+      @FindBy(xpath ="//android.widget.EditText[@resource-id='ion-input-8']")
+      private WebElement address;
+      public WebElement getAddress() {
+    	  return address;
+      }
+    	  @FindBy(xpath ="//android.widget.EditText[@resource-id='ion-input-9']")
+    	  private WebElement city;
+    	  public WebElement getCity() {
+    		  return city;
+    	  }
+      
 }

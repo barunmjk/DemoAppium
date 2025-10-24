@@ -3,19 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pixel9a.Pixel9aCommunityProgram_Test">
+      <class name="calculator_Test.Calculator_Test">
         <methods>
-          <include name="bClass"/>
-          <include name="atest"/>
-          <include name="asuite"/>
-          <include name="bMethod"/>
-          <include name="btest"/>
-          <include name="CommunityProgram_Test"/>
-          <include name="aclass"/>
-          <include name="amethod"/>
-          <include name="bsuite"/>
+          <include name="cal_Test"/>
         </methods>
-      </class> <!-- pixel9a.Pixel9aCommunityProgram_Test -->
+      </class> <!-- calculator_Test.Calculator_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

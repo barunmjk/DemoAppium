@@ -19,7 +19,7 @@ import org.testng.annotations.BeforeTest;
 import io.appium.java_client.android.AndroidDriver;
 import objectRepo.PomPlastic;
 
-public class BaseClass {
+ class BaseClass {
 	public static AndroidDriver driver;
      @BeforeSuite
      public void bsuite() {

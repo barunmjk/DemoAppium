@@ -33,14 +33,14 @@ public class Pixel9aCommunityProgram_Test extends BaseClass {
     	 Thread.sleep(6000);
     	 pom.getSavePic().click();
     	 
-    	 pcp.getName().sendKeys("solutions kumar");
+    	 pcp.getName().sendKeys("solutions kumarii");
     	 Thread.sleep(4000);
     	 PointerClick pc=new PointerClick();
      	pc.tap(514, 1018,driver);
      	driver.pressKey(new KeyEvent(AndroidKey.DIGIT_1));
-     	driver.pressKey(new KeyEvent(AndroidKey.DIGIT_1));
+     	driver.pressKey(new KeyEvent(AndroidKey.DIGIT_3));
      	driver.pressKey(new KeyEvent(AndroidKey.DIGIT_4));
-     	driver.pressKey(new KeyEvent(AndroidKey.DIGIT_1));
+     	driver.pressKey(new KeyEvent(AndroidKey.DIGIT_6));
      	driver.pressKey(new KeyEvent(AndroidKey.DIGIT_7));
      	driver.pressKey(new KeyEvent(AndroidKey.DIGIT_1));
      	
@@ -77,9 +77,11 @@ public class Pixel9aCommunityProgram_Test extends BaseClass {
         Thread.sleep(4000);
         prb.getBizName().sendKeys("AllIndiaWarriors");
         Thread.sleep(4000);
-        pom.getCheckBox().click();
+        pcp.getAddress().sendKeys("Washington DC");
         Thread.sleep(4000);
-       
+        pcp.getCity().sendKeys("Washington");
+        Thread.sleep(4000);
+        pom.getCheckBox().click();
         Thread.sleep(6000);
         pom.getRegister().click();
         Thread.sleep(6000);
