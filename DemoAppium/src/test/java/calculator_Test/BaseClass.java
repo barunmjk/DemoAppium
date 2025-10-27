@@ -29,7 +29,7 @@ import io.appium.java_client.android.AndroidDriver;
         @BeforeSuite
         public void bSuite() {
         //this report generations 
-        	ExtentSparkReporter esr=new ExtentSparkReporter("C:\\Users\\Fleek IT\\git\\repository\\DemoAppium\\htmlfile\\dummy6.html");
+        	ExtentSparkReporter esr=new ExtentSparkReporter("C:\\Users\\Fleek IT\\git\\repository\\DemoAppium\\htmlfile\\dummy7.html");
         	esr.config().setDocumentTitle("CalCulatorReport");
         	esr.config().setReportName("General working");
         	esr.config().setTheme(Theme.DARK);
@@ -48,7 +48,6 @@ import io.appium.java_client.android.AndroidDriver;
         	dc.setCapability("appium:platformName","Android");
         	dc.setCapability("appium:automationName","UiAutomator2");
         	dc.setCapability("appium:deviceName","emulator-5554");
-        	dc.setCapability("appium:platformVersion","16");
         	dc.setCapability("appium:platformVersion","16");
         	//dc.setCapability("appium:app","C:/Users/Fleek IT/Downloads/com-miui-calculator-315003003-70230966-ec423981671a2a7f8dc75626c6c33e21.apk");
         	dc.setCapability("appium:package","com.miui.calculator2");
